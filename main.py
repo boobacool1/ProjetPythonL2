@@ -5,7 +5,7 @@ reponse = "oui"
 recette = 0
 while(reponse == "oui"):
 
-    for i in range(0, 2):
+    for i in range(0, 5):
         print("Entrez le prix unitaire de l'article ", (i + 1))
         part = float(input())
         print("Entrez la quantité de larticle", (i + 1))
